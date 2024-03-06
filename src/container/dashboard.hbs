@@ -62,6 +62,7 @@
         <div class='text aside__logo'>
           Sidebar
         </div>
+
         <nav class='vertical vertical--small'>
           <a
             href='#'
@@ -105,6 +106,7 @@
 
         </nav>
       </aside>
+
       <header class='header'>
         <div class='layout header__content text--small'>
           <div class='header__search relative'>
@@ -121,8 +123,8 @@
               class='icon icon--header-settings click'
               style="background-image: url('/svg/header/settings.svg')"
             ></span>
-
           </div>
+
           <div class='header__right'>
             <span
               class='icon header__right-sound click'
@@ -139,9 +141,35 @@
           </div>
         </div>
       </header>
+
       <main class='main'>
         <div class='layout'>
           <section class='box analytic__block'>
+            <div
+              class='analytic analytic--double analytic--purple'
+            >
+              <span
+                class='icon analytic__button click'
+                style="background-image: url('/svg/analytic/earning.svg')"
+              ></span>
+
+              <div
+                class='relative vertical vertical--small'
+              >
+                <div
+                  class='analytic__title text text--light'
+                >$500</div>
+                <div
+                  class='analytic__info text text--lighter text--small'
+                >Total earning</div>
+              </div>
+
+              <span
+                class='icon analytic__arrow'
+                style="background-image: url('/svg/analytic/blue-arrow.svg')"
+              ></span>
+            </div>
+
             <div
               class='analytic analytic--double analytic--blue'
             >
@@ -167,20 +195,133 @@
               ></span>
             </div>
 
-            <div
-              class='analytic analytic--double'
-            >test</div>
-            <div class='analytic'>
-              <div>test</div>
-              <div>test</div>
-              <div>test</div>
+            <div class='analytic__half'>
+              <div class='analytic__half analytic--blue'>
+                <span
+                  class='icon analytic__button click'
+                  style="background-image: url('/svg/analytic/income.svg')"
+                ></span>
+                <div class='relative vertical vertical--small'>
+                  <div
+                    class='analytic__title-block text text--light'
+                  >$203K</div>
+                  <div
+                    class='analytic__info text text--lighter text--small'
+                  >Total income</div>
+                </div>
+              </div>
+
+              <div
+                class='analytic__half analytic--white border'
+              >
+                <span class='icon analytic__button click'
+                  style="background-image: url('/svg/analytic/income-2.svg')"
+                ></span>
+                <div class='relative vertical vertical--small'></div>
+                  <div class='analytic__title-block text text--black'>$203K</div>
+                <div
+                  class='analytic__info text text--gray text--small'
+                >Total income</div>
+                </div>
+              </div>
+
             </div>
-            <div class='analytic'>
-              <div>test</div>
-              <div>test</div>
-              <div>test</div>
+
+          </section>
+
+          <div class="analytic__blocks">
+            <section class="box box__purchase">
+            <div>
+              <h1>Purchase list</h1>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="analytic__block-purchase">
+              <div>
+               <div>ID437661</div>
+               <div>May 11, 2023, 14:21</div>
+            </div>
+             <div>
+               <div>AirOn ProCam</div>
+               <div>7/8 USB Type-C</div>
+            </div>
+             <div>
+               <div>132.32 EUR</div>
+               <div>Not paid</div>
+            </div>
+             <div>
+               <div>Customer</div>
+               <div>robin@com.de</div>
+            </div>
+             <div>
+               <div>ID437661</div>
+               <div>May 11, 2023, 14:21</div>
+            </div>
+             <div>
+               <div>PHILIPS Essential</div>
+               <div>HD9200/90</div>
+            </div>
+             <div>
+               <div>543 USD</div>
+               <div>Pay by  Stripe</div>
+            </div>
+             <div>
+               <div>Customer</div>
+               <div>dima@com.ua</div>
+            </div>
             </div>
           </section>
+
+          <section class="box box__payment">
+            <div>
+              <h1>Payment</h1>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="analytic__block-payment">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Credit card
+                </label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Debit card
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label" for="flexRadioDefault3">
+                  PayPal
+                </label>
+              </div>           
+            </div>
+            <br>
+
+            <div class="analytic__payment-info mb-3">
+              <div>
+                <label for="name" class="label__info text text--small">Name on card</label>
+                <input type="text" class="input__info" id="name">
+              </div>
+              <div>
+                <label for="name" class="label__info text text--small">Credit card number</label>
+                <input type="text" class="input__info" id="name">
+              </div>
+              <div>
+                <label for="name" class="label__info text text--small">Expiration</label>
+                <input type="text" class="input__info" id="name">
+              </div>
+              <div>
+                <label for="name" class="label__info text text--small">CVV</label>
+                <input type="text" class="input__info" id="name">
+              </div>
+            </div>
+          </section>
+          </div>
+
         </div>
       </main>
     </div>
