@@ -37,12 +37,9 @@
 
     <link href='css/normalize.css' rel='stylesheet' />
 
-    {{! <link
-      href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css'
-      rel='stylesheet'
-      integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD'
-      crossorigin='anonymous'
-    /> }}
+    {{!
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous' /> }}
 
     <link href='css/dashboard.css' rel='stylesheet' />
 
@@ -201,7 +198,9 @@
                   class='icon analytic__button click'
                   style="background-image: url('/svg/analytic/income.svg')"
                 ></span>
-                <div class='relative vertical vertical--small'>
+                <div
+                  class='relative vertical vertical--small'
+                >
                   <div
                     class='analytic__title-block text text--light'
                   >$203K</div>
@@ -214,115 +213,228 @@
               <div
                 class='analytic__half analytic--white border'
               >
-                <span class='icon analytic__button click'
+                <span
+                  class='icon analytic__button click'
                   style="background-image: url('/svg/analytic/income-2.svg')"
                 ></span>
-                <div class='relative vertical vertical--small'></div>
-                  <div class='analytic__title-block text text--black'>$203K</div>
+                <div
+                  class='relative vertical vertical--small'
+                ></div>
+                <div
+                  class='analytic__title-block text text--black'
+                >$203K</div>
                 <div
                   class='analytic__info text text--gray text--small'
                 >Total income</div>
-                </div>
               </div>
-
             </div>
-
           </section>
+        </div>
 
-          <div class="analytic__blocks">
-            <section class="box box__purchase">
-            <div>
+        <div class='analytic__blocks text text--small'>
+          <section class='box box__purchase'>
+            <div class='text text--heading'>
               <h1>Purchase list</h1>
             </div>
-            <br>
-            <hr>
-            <br>
-            <div class="analytic__block-purchase">
+            <br />
+            <hr />
+            <br />
+
+            <div class='analytic__block-purchase'>
               <div>
-               <div>ID437661</div>
-               <div>May 11, 2023, 14:21</div>
-            </div>
-             <div>
-               <div>AirOn ProCam</div>
-               <div>7/8 USB Type-C</div>
-            </div>
-             <div>
-               <div>132.32 EUR</div>
-               <div>Not paid</div>
-            </div>
-             <div>
-               <div>Customer</div>
-               <div>robin@com.de</div>
-            </div>
-             <div>
-               <div>ID437661</div>
-               <div>May 11, 2023, 14:21</div>
-            </div>
-             <div>
-               <div>PHILIPS Essential</div>
-               <div>HD9200/90</div>
-            </div>
-             <div>
-               <div>543 USD</div>
-               <div>Pay by  Stripe</div>
-            </div>
-             <div>
-               <div>Customer</div>
-               <div>dima@com.ua</div>
-            </div>
+                <div>ID437661</div>
+                <div>May 11, 2023, 14:21</div>
+              </div>
+              <div>
+                <div>AirOn ProCam</div>
+                <div>7/8 USB Type-C</div>
+              </div>
+              <div>
+                <div>132.32 EUR</div>
+                <div>Not paid</div>
+              </div>
+              <div>
+                <div>Customer</div>
+                <div>robin@com.de</div>
+              </div>
+              <div>
+                <div>ID437661</div>
+                <div>May 11, 2023, 14:21</div>
+              </div>
+              <div>
+                <div>PHILIPS Essential</div>
+                <div>HD9200/90</div>
+              </div>
+              <div>
+                <div>543 USD</div>
+                <div>Pay by Stripe</div>
+              </div>
+              <div>
+                <div>Customer</div>
+                <div>dima@com.ua</div>
+              </div>
             </div>
           </section>
 
-          <section class="box box__payment">
-            <div>
+          <section
+            class='box box__payment text text--small'
+          >
+            <div class='text text--heading'>
               <h1>Payment</h1>
             </div>
-            <br>
-            <hr>
-            <br>
-            <div class="analytic__block-payment">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                <label class="form-check-label" for="flexRadioDefault1">
-                  Credit card
-                </label>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                <label class="form-check-label" for="flexRadioDefault2">
-                  Debit card
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                <label class="form-check-label" for="flexRadioDefault3">
-                  PayPal
-                </label>
-              </div>           
-            </div>
-            <br>
+            <br />
+            <hr />
+            <br />
 
-            <div class="analytic__payment-info mb-3">
-              <div>
-                <label for="name" class="label__info text text--small">Name on card</label>
-                <input type="text" class="input__info" id="name">
-              </div>
-              <div>
-                <label for="name" class="label__info text text--small">Credit card number</label>
-                <input type="text" class="input__info" id="name">
-              </div>
-              <div>
-                <label for="name" class="label__info text text--small">Expiration</label>
-                <input type="text" class="input__info" id="name">
-              </div>
-              <div>
-                <label for="name" class="label__info text text--small">CVV</label>
-                <input type="text" class="input__info" id="name">
+            <div class='analytic__block-payment'>
+              <div class='analytic__radio text'>
+                <div class='form-check'>
+                  <input
+                    class='form-check-input'
+                    type='radio'
+                    name='flexRadioDefault'
+                    id='flexRadioDefault1'
+                    checked
+                  />
+                  <label
+                    class='form-check-label'
+                    for='flexRadioDefault1'
+                  >
+                    Credit card
+                  </label>
+                  <div class='form-check'>
+                    <input
+                      class='form-check-input'
+                      type='radio'
+                      name='flexRadioDefault'
+                      id='flexRadioDefault2'
+                    />
+                    <label
+                      class='form-check-label'
+                      for='flexRadioDefault2'
+                    >
+                      Debit card
+                    </label>
+                  </div>
+                  <div class='form-check'>
+                    <input
+                      class='form-check-input'
+                      type='radio'
+                      name='flexRadioDefault'
+                      id='flexRadioDefault3'
+                    />
+                    <label
+                      class='form-check-label'
+                      for='flexRadioDefault3'
+                    >
+                      PayPal
+                    </label>
+                  </div>
+                </div>
+
+                <div class='analytic__payment-info'>
+                  <div>
+                    <label
+                      for='name'
+                      class='label__info text text--small'
+                    >Name on card</label>
+                    <input
+                      type='text'
+                      class='input__info'
+                      id='name'
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for='name'
+                      class='label__info text text--small'
+                    >Credit card number</label>
+                    <input
+                      type='text'
+                      class='input__info'
+                      id='name'
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for='name'
+                      class='label__info text text--small'
+                    >Expiration</label>
+                    <input
+                      type='text'
+                      class='input__info'
+                      id='name'
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for='name'
+                      class='label__info text text--small'
+                    >CVV</label>
+                    <input
+                      type='text'
+                      class='input__info'
+                      id='name'
+                    />
+                  </div>
+                </div>
+                <br />
+                <br />
+                <hr />
+                <br />
+
+                <div class='analytic__select click'>
+                  <div>
+                    <label
+                      for='name'
+                      class='label__info text text--small'
+                    >Country</label>
+                    <select
+                      class='form-select field field--select'
+                      aria-label='Default select example'
+                    >
+                      <option selected>Choose...</option>
+                      <option value='1'>Ukraine</option>
+                      <option value='2'>United Kingdom</option>
+                      <option value='3'>United States</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label
+                      for='name'
+                      class='label__info text text--small'
+                    >State</label>
+                    <select
+                      class='form-select field field--select'
+                      aria-label='Default select example'
+                    >
+                      <option selected>Choose...</option>
+                      <option value='1'>Chicago</option>
+                      <option value='2'>Texas</option>
+                      <option value='3'>Vashington</option>
+                    </select>
+                  </div>
+                </div>
+                <br />
+                <br />
+                <hr />
+                <br />
+
+                <div
+                  class='analytic__block-button text text-lighter click'
+                >
+                  <button
+                    class='button'
+                    type='submit'
+                  >Continue to checkout</button>
+                </div>
               </div>
             </div>
+
           </section>
-          </div>
-
         </div>
+
       </main>
     </div>
 
