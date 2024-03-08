@@ -366,7 +366,7 @@ body {
     cursor: pointer;
   }
 
-  .analytic__block-button {
+  .button {
     background-color: var(--color-primary);
     color: var(--color-white);
     border-radius: var(--radius-1);
